@@ -19,10 +19,8 @@ public final class Constants {
   public static class DriveTrain{
 
     public static final int DriveTrainMotorL1 = 1;
-    public static final int DriveTrainMotorL2 = 2;
-    public static final int DriveTrainMotorL3 = 3;
-    public static final int DriveTrainMotorR1 = 4;
-    public static final int DriveTrainMotorR2 = 5;
-    public static final int DriveTrainMotorR3 = 6;
+    public static final int DriveTrainMotorL2 = 4;
+    public static final int DriveTrainMotorR1 = 2;
+    public static final int DriveTrainMotorR2 = 3;
   }
 }

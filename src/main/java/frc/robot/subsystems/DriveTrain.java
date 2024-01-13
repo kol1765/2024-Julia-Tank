@@ -31,19 +31,18 @@ public class DriveTrain extends SubsystemBase {
 
     l1 = new CANSparkMax(Constants.DriveTrain.DriveTrainMotorL1, MotorType.kBrushless);
     l2 = new CANSparkMax(Constants.DriveTrain.DriveTrainMotorL2, MotorType.kBrushless);
-    l3 = new CANSparkMax(Constants.DriveTrain.DriveTrainMotorL3, MotorType.kBrushless);
+
 
     r1 = new CANSparkMax(Constants.DriveTrain.DriveTrainMotorR1, MotorType.kBrushless);
     r2 = new CANSparkMax(Constants.DriveTrain.DriveTrainMotorR2, MotorType.kBrushless);
-    r3 = new CANSparkMax(Constants.DriveTrain.DriveTrainMotorR3, MotorType.kBrushless);
+  
 
     l1.setIdleMode(IdleMode.kCoast);
     l2.setIdleMode(IdleMode.kCoast);
-    l3.setIdleMode(IdleMode.kCoast);
+
 
     r1.setIdleMode(IdleMode.kCoast);
     r2.setIdleMode(IdleMode.kCoast);
-    r3.setIdleMode(IdleMode.kCoast);
   }
 
   public void ArcadeDrive(double moveSpeed, double rotateSpeed) {
